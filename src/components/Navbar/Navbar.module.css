@@ -1,0 +1,89 @@
+/* Navbar Styling */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 124, 124, 0.877);
+    box-shadow: 3px 3px 3px black;
+    padding: 0.5%;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+}
+
+/* Home icon styling */
+.iconContainer{
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+    width: 13%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.iconContainer:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.iconContainer:hover .iconTitle{
+    color: black;
+}
+
+.iconContainer:hover .iconImage{
+    transform: rotate(120deg);
+    transition: 0.4s ease-in-out;
+}
+
+.iconTitle{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.iconImage{
+    height: 2rem;
+}
+
+/* ---------------Secondary container styling for add-contact button and theme button----------- */
+.secondaryContainer{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5%;
+}
+
+/* Add contact button styling */
+.addContactBtn{
+    padding: 0.6%;
+    font-weight: bolder;
+    border-radius: 0.4rem;
+    border: none;
+    width: 70%;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.addContactBtn:hover{
+    box-shadow: 3px 3px 3px black;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    color: rgb(0, 124, 124);
+}
+
+/* Theme icon styling */
+.nav_themeIcon{
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.nav_themeIcon:hover{
+    transform: scale(1.2) rotate(120deg);
+    border-color: white;
+    transition: 0.4s ease-in-out;
+    box-shadow: 3px 3px 3px black;
+}
